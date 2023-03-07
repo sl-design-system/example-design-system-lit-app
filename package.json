@@ -1,0 +1,22 @@
+{
+  "name": "example-design-system-lit-app",
+  "description": "Example application using the Design System and Lit.",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanomalearning/example-design-system-lit-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sanomalearning/example-design-system-lit-app/issues"
+  },
+  "homepage": "https://github.com/sanomalearning/example-design-system-lit-app#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@sanomalearning/slds-core": "^0.1.1"
+  }
+}
