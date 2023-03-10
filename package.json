@@ -13,10 +13,21 @@
   },
   "homepage": "https://github.com/sanomalearning/example-design-system-lit-app#readme",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "wireit"
+  },
+  "wireit": {
+    "start": {
+      "command": "wds --open --watch"
+    }
   },
   "dependencies": {
     "@sanomalearning/slds-core": "^0.1.1"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.1.35",
+    "@web/dev-server-esbuild": "^0.3.3",
+    "wireit": "^0.9.5"
   }
 }
