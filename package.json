@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "license": "Apache-2.0",
   "private": true,
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sanomalearning/example-design-system-lit-app.git"
@@ -12,8 +13,6 @@
     "url": "https://github.com/sanomalearning/example-design-system-lit-app/issues"
   },
   "homepage": "https://github.com/sanomalearning/example-design-system-lit-app#readme",
-  "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "wireit"
   },
