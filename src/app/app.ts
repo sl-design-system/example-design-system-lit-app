@@ -12,7 +12,9 @@ export class App extends ScopedElementsMixin(LitElement) {
   }
 
   static styles: CSSResultGroup = css`
-    :host { display: block; }
+    :host {
+      display: block;
+    }
   `;
 
   render(): TemplateResult {

@@ -18,15 +18,22 @@
   },
   "wireit": {
     "start": {
-      "command": "wds --open --watch"
+      "command": "wds --open --watch",
+      "files": [
+        "web-dev-server.config.js"
+      ]
     }
   },
   "dependencies": {
-    "@sanomalearning/slds-core": "^0.1.1"
+    "@sanomalearning/slds-core": "^0.1.1",
+    "@sanomalearning/slds-editor": "^0.0.2",
+    "@sanomalearning/slds-grid": "^0.0.3",
+    "@sanomalearning/slds-sanoma-learning": "^0.0.1"
   },
   "devDependencies": {
     "@web/dev-server": "^0.1.35",
     "@web/dev-server-esbuild": "^0.3.3",
+    "typescript": "^5.0.2",
     "wireit": "^0.9.5"
   }
 }
